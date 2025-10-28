@@ -174,9 +174,6 @@
   list-style: none;
 }
 
-.lots__card-list-item {
-}
-
 .card-link {
   text-decoration: none;
 }
@@ -255,8 +252,6 @@
   padding-left: 25px;
 }
 
-
-
 /* логотип в круге */
 
 .about__logo {
@@ -311,14 +306,11 @@
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
-  list-style: none;
   text-underline-offset: 4px;
+  list-style: none;
 }
 
 /* стили для навигации */
-
-.footer__menu {
-}
 
 .footer__menu-list {
   text-align: center;
