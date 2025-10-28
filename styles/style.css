@@ -80,9 +80,9 @@
 .overlay {
   position: absolute;
   top: 0;
-  left: 0;
   right: 0;
   bottom: 0;
+  left: 0;
   z-index: 1;
   width: 100%;
   height: 100%;
@@ -160,8 +160,8 @@
 }
 
 .lots__heading {
-  margin-left: 40px;
   margin-bottom: 27px;
+  margin-left: 40px;
   font-weight: 700;
   font-size: 40px;
   font-style: normal;
@@ -192,8 +192,8 @@
   min-height: 596px;
   padding: 48px 40px;
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
 }
 
 /* смена картинки для каждой карточки */
@@ -228,16 +228,16 @@
   color: white;
   font-weight: 400;
   font-size: 20px;
-  text-decoration: none;
   line-height: 120%;
+  text-decoration: none;
 }
 
 /* стили для кнопки посмотреть больше */
 
 .lots__look-more-link {
-  margin-left: 40px;
-  margin-top: 30px;
   display: inline-block;
+  margin-top: 30px;
+  margin-left: 40px;
   border-bottom: 1px solid;
   font-size: 20px;
   text-decoration: none;
@@ -246,21 +246,47 @@
 /* СЕКЦИЯ ОБ АУКЦИОНЕ */
 
 .about {
+  margin: 120px 24px 180px 24px;
+  display: grid;
+  grid-template-columns: 335px 1fr;
 }
 
 .about__column {
+
 }
 
 .about__logo {
+  margin-left: 47px;
+  margin-top: 35px;
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 120px;
 }
 
 .about__logo-image {
+  width: 148px;
+  height: 114px;
 }
 
 .about__title {
+  padding-top: 136px;
+  padding-bottom: 100px;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .about__text {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.01px;
 }
 
 /* ПОДВАЛ */
