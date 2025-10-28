@@ -7,6 +7,8 @@
   padding: 92px 50px 96px 50px;
 }
 
+/* стили для меню с навигацией */
+
 .header__menu {
   display: flex;
   justify-self: start;
@@ -36,11 +38,12 @@
   text-decoration: none;
 }
 
+/* стили для логотипа */
+
 .header__logo {
   display: block;
   width: 148px;
   height: 105px;
-  justify-self: center;
 }
 
 .header__logo-image {
@@ -48,162 +51,143 @@
   height: 100%;
 }
 
-.address {
-  padding-left: 185px;
-  font-family: "Raleway", sans-serif;
+/* стили для плашки с контактной информацией */
+
+.header__address {
+  justify-self: end;
+  font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
   text-underline-offset: 4px;
   list-style-type: none;
+  padding-left: 185px;
 }
 
 /* ОБЛОЖКА */
 
 .cover {
+}
 
+.overlay {
 }
 
 .cover__title {
-
 }
 
 .aligned-text {
-
 }
 
 .aligned-text_center {
-
 }
 
 .aligned-text_right {
+}
 
+.letter-spacing-extended {
+}
+
+.no-letter-spacing {
 }
 
 .cover__description {
-
 }
 
 .cover__description-text {
-
 }
 
 .bet-button {
-
 }
 
-.lots {
+/* СЕКЦИЯ ЛОТОВ */
 
+.lots {
 }
 
 .lots__heading {
-
 }
 
 .lots__card-list {
-
 }
 
 .lots__card-list-item {
-
 }
 
 .card-link {
-
 }
 
 .card {
-
 }
 
 .card_type_film {
-
 }
 
 .card_type_book {
-
 }
 
 .card_type_picture {
-
 }
 
 .card__title {
-
 }
 
 .card__text {
-
 }
 
 .lots__look-more-link {
-
 }
 
-.about {
+/* СЕКЦИЯ ОБ АУКЦИОНЕ */
 
+.about {
 }
 
 .about__column {
-
 }
 
 .about__logo {
-
 }
 
 .about__logo-image {
-
 }
 
 .about__title {
-
 }
 
 .about__text {
-
 }
 
-.footer {
+/* ПОДВАЛ */
 
+.footer {
 }
 
 .footer__address {
-
 }
 
 .footer__menu {
-
 }
 
 .footer__menu-list {
-
 }
 
 .footer__menu-list-item {
-
 }
 
 .footer__menu-link {
-
 }
 
 .footer__menu-link_active {
-
 }
 
 .footer__social-list {
-
 }
 
 .footer__social-list-item {
-
 }
 
 .footer__social-link {
-
 }
 
 .footer__social-icon {
-
 }
