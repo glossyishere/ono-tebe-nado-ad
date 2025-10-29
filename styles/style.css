@@ -244,12 +244,12 @@
 
 .about {
   display: grid;
-  grid-template-columns: 335px 1fr;
+  grid-template-columns: 339px 1fr;
   margin: 120px 24px 0px 24px;
 }
 
 .about__column {
-  padding-left: 25px;
+  padding-left: 25px; /* даёт в сумме 47px до лого*/
 }
 
 /* логотип в круге */
@@ -261,7 +261,7 @@
   width: 240px;
   height: 240px;
   margin-top: 35px;
-  margin-left: 22px;
+  margin-left: 22px; /* даёт в сумме 47px до лого*/
   border-radius: 120px;
   background-color: black;
 }
